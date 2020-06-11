@@ -1,0 +1,206 @@
+body{
+	background-image: url(pic1.jpg);
+	background-color: #cccccc;
+}
+
+h1{
+	color:#000000; 
+	font-size:200%; 
+	font-family:Cormorant Upright, serif;
+	text-align:center;
+
+}
+h2{
+	color:#000000; 
+	font-size:150%; 
+	font-family:Cormorant Upright, serif;
+	
+	text-align:center;
+	
+}
+h3{
+	color:#000000; 
+	font-size:130%; 
+	font-family:papyrus, fantasy;
+	text-align: center;
+	
+}
+
+p{
+	color:#000000; 
+	font-size:100%; 
+	font-family:papyrus, fantasy;
+	text-align: center;
+	font-weight: bold;
+}
+
+footer{
+	text-align:center;
+}
+
+nav ul{
+	list-style:none;
+}
+
+a:link{
+	color:#0000ff; 
+			
+}
+a:visited{
+	color:#000000; 
+			
+}
+a:hover{
+	background:blue;
+	color:#ffffff; 
+	text-decoration:underline;
+}
+a:active{
+	color:#0000ff; 
+	text-decoration:underline;
+}
+.wrapper{ 
+
+	/*Orange for wrapper and divs and dark red for background makes it easy to look at and fits the medieval/fantasy theme of the show.*/
+	
+	width:960px;
+	
+	background:#F4890C;
+	
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	
+	position:relative;
+		right:15%;
+		left:15%;
+		
+}
+
+
+.topsection{
+	width:958px;
+	background:#F4890C;
+	
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	
+}
+
+.contentarea{
+	width:658px;
+	background:#F4890C;
+	
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+
+	float: right;
+}
+.contentarea p{
+	color:#000000; 
+	font-size:100%; 
+	font-family:papyrus, fantasy;
+	text-align:left;
+	font-weight: bold;
+	
+}
+
+#contentarea p{
+	color:#000000; 
+	font-size:100%; 
+	font-family:papyrus, fantasy;
+	text-align:center;
+	font-weight: bold;
+	
+}
+
+
+.leftcolumn{
+	width:297px;
+	background:#cc5200;
+	text-align: center;
+	
+	
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	
+	
+	float: left;
+
+}
+
+
+.bottomsection{
+	width:658px;
+	background:#F4890C;
+	
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	
+
+	float: right;
+
+}
+
+.leftcolumn form{
+	margin: 0 auto;
+}
+
+.hide {
+	display: none;
+}
+
+@media screen and (max-width: 960px) {
+	.wrapper {
+		width: 380px;
+		
+	}
+	
+	.topsection{
+		width: 380px;
+		height: 100px;
+		float: right;
+		float: left;
+		
+	}
+	
+	.leftcolumn{
+		width: 380px;
+		float: right;
+		float: left;
+	}
+	
+	.contentarea{
+		width: 380px;
+		float: right;
+		float: left;
+	}
+	.contentarea img{
+		width:100%;
+	}
+	.bottomsection{
+		width: 380px;
+		float: right;
+		
+	}
+	
+	.topsection img{
+		width: 380px;
+		height: 100px;
+	}
+	
+ 	.table, .table tbody, .table tr, .table td{
+		width: 380px;
+		display: block;
+		text-align: center;
+	}
+	.table img{
+		width: 150px;
+	}
+		
+	
+}
